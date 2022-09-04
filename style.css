@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+html, body{
+  height: 100%;
+  width: 100%;
+  font-family: 'Playfair Display', serif;
+}
+.calculator{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    left: 40%;
+    background-color:rgb(226,224,224) ;
+    
+}
+.container{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 15px;
+}
+.button{
+background-color: white;
+  width: 69px;
+  height:30px;
+  margin: 0 ;
+  border: 1px solid rgb(229,227,227);
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(255,200,119) ;
+}
+.right{
+    color: white;
+    background-color: rgb(193,68,68);
+}
+.row{
+    margin-right: 0;
+}
+.input{
+    background-color: 245,245,245;
+    border:none;
+}
+.row input{
+    display: flex;
+    width: 288px;
+  font-size: 20px;
+    margin: 0 0 5px 0;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+
+.one{
+    width:142px;
+}
+
